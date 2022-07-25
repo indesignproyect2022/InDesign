@@ -1,0 +1,60 @@
+#!/bin/bash
+
+while true
+do 
+
+echo "----- MENU -----"
+echo ""
+echo "1 - Crear Usuario"
+echo "2 - Eliminar Usuario"
+echo "3 - Asignar Contraseña a Usuario"
+echo "4 - Crear Grupo"
+echo "5 - Eliminar Grupo"
+echo "6 - Asignar Grupo Secundario"
+echo "0 - Salir"
+echo ""
+read -p "Ingrese una Opcion: " OP
+
+case $OP in 
+
+1) read -p "Inghrese nombre de Usuario a crear: " AG
+    sudo useradd $AG
+    ;;
+
+2) read -p "Ingrese nombre del Usuario a eliminar: " ELI
+    sudo userdel -r $ELI
+    ;;
+
+3) read -p "Ingrese nomre del Usuario a asignar contraseña: " CON
+    sudo passwd $CON
+    ;;
+
+4) read -p "Ingrese  ID del grupo a crear: " ID
+    read -p "Ingrese nombre del grupo a crear: " GROUP
+    sudo groupadd -g $ID $GROUP
+    ;;
+
+5) read -p "Ingrese nombre del grupo a eliminar: " GRDEL
+    sudo groupdel $DRGEL
+    ;;
+
+6) read -p "Ingrese nombre del Usuario: " NOM
+    read -p "Ingrese nombre del grupo secundario: " GROUPB
+    sudo usermod -a -G $GROUPB $NOM
+    ;;
+
+0) exit
+    ;;
+
+*) echo "ERROR, SELECIONE UNA OPCION CORRECTA"
+   ;;
+
+esac 
+done
+ 
+
+
+
+
+
+
