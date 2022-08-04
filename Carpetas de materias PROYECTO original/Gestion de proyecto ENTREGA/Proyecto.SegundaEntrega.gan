@@ -40,8 +40,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Creacion de gantt" color="#8cb6ce" meeting="false" start="2022-07-29" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
-        <task id="1" name="Plan de actividades" color="#8cb6ce" meeting="true" start="2022-08-01" duration="0" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Creacion de gantt" color="#8cb6ce" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Plan de actividades" color="#8cb6ce" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
             <depend id="0" type="3" difference="0" hardness="Strong"/>
         </task>
         <task id="2" name="Documentacion de inicio y planificacion" meeting="false" start="2022-08-01" duration="1" complete="0" expand="true"/>
@@ -54,10 +54,10 @@
         <task id="11" name="Diagramas UML (Casos de Uso) (Planilla y diagramación)" color="#33ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="12" name="Diagramas de clase" color="#33ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="13" name="Diagrama de estados." color="#00ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
-        <task id="14" name="UML (segunda version)" color="#00ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="UML (segunda version)" color="#00ccff" meeting="false" start="2022-08-02" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="15" name="Estudio de factibilidad" color="#00ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="16" name="UML (version final)" color="#00ccff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
-        <task id="17" name="Actualizacion de gantt" color="#ffff99" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Actualizacion de gantt" color="#ffff99" meeting="false" start="2022-08-02" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="18" name="Contabilidad de actas hasta este punto" color="#ffff99" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="19" name="D.E.R. de la situación planteada (primera version)" color="#9999ff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
         <task id="20" name="Normalización (hasta 3FN)" color="#9999ff" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
