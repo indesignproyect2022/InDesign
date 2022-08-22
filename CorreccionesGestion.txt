@@ -1,0 +1,16 @@
+Correcciones sobre la primera entrega de gestion
+
+- Faltan roles
+- Organización de desarrollo y ciclo de vida pobre
+- Formato de acta sin personalización
+- Reglas de grupo mal conformadas
+- Documentación de inicio y planificación mal conformada
+- Bibliografía incorrecta
+- No hay gantt
+
+Nota de proyecto 2
+
+Mori 4
+Landaco 4
+Rosa 6
+Gonzalez 5
